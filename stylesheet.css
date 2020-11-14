@@ -1,0 +1,107 @@
+html,
+body,
+h1,
+h2,
+a,
+p {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: calc(100vw/14.4);
+}
+
+body {
+    font-size: 0.16rem;
+}
+
+.header-logo {
+    margin: 0.3rem 0 0 0.8rem;
+    display: inline-block;
+    position: relative;
+}
+
+.top-container {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606089600&Signature=bbPHQmPZLzyJ-khBQIlyHy0OI1EPk45AiMXiNCO0h8NaTewwqIbU7Ic9kEJpEuTnodAI02lg8nqwaPMb8iw43dZxjxjVk3KIQnuiGCSRhXD45KmAQ8-cldPl2Aky0d824DTphYtUMRSFcSIMNTrF2M8KoRrgKW~O1~LT1bP2gndXf~zEXJW41jzj3-KgZ-sR6v7ga1wvyju5R5Q1xJqv8bLIAkYT-OA6rhGTw9xEfcevcz-JRc64zAvo4bEH5yFp0V01l3nkqS75uNcDfdF~9ZhR1Pf3X-i3ojxBpdBWXXCf1TQNL8ZJ58FgCKXWQovoN-PIboEYtpTwOiUTIb1BuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+
+.header-logo-contain {
+    display: inline-block;
+}
+
+.head-logo {
+    color: rgba(0, 89, 130, 1);
+    font-size: 23px;
+    display: inline-block;
+}
+
+.head-sub {
+    color: rgba(106, 105, 105, 1);
+    font-size: 10px;
+    transform: scale(0.6);
+    position: absolute;
+    top: 23px;
+    left: 55px;
+    width: 110px;
+}
+
+.head-sub span {
+    color: rgba(201, 22, 29, 1);
+    font-size: 10px;
+    transform: scale(0.7);
+    font-weight: 600;
+}
+
+.header-contact {
+    float: right;
+}
+
+.header-contact-phone {
+    float: left;
+    position: relative;
+    width: clamp(200px, 4rem, 235px);
+}
+
+.phone {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 11px;
+    padding: 5px 5px 0 5px;
+    width: 10px;
+    display: inline-block;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.phone-number {
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: clamp(20px, 0.24rem, 24px);
+    line-height: 22px;
+    color: rgba(235, 87, 87, 1);
+    position: absolute;
+    top: 3px;
+    left: 30px;
+}
+
+.business-hours {
+    font-family: Mplus 1p;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(0.12rem, 12px);
+    line-height: 0.12rem;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
