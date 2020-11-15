@@ -158,6 +158,8 @@ body {
     border: 1px solid #F6F6F6;
     box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 2px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    font-size: min(0.2rem, 20px);
+    font-weight: 600;
 }
 
 .top-mid-content-1 {
@@ -168,4 +170,37 @@ body {
 .top-mid-content-2 {
     margin-left: 0.2rem;
     padding: min(0.2rem, 20px) min(0.35rem, 35px);
+}
+
+.top-mid-span-1 {
+    font-size: min(0.32rem, 32px);
+    color: rgba(235, 87, 87, 1);
+}
+
+.top-mid-span-2 {
+    color: rgba(235, 87, 87, 1);
+}
+
+.top-body-contact {
+    margin: 0.06rem;
+}
+
+.top-contact-button {
+    background-color: #EB5757;
+    border-radius: 80px;
+    font-size: min(0.2rem, 20px);
+    font-weight: 800;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: min(0.26rem, 26px) min(1.5rem, 150px);
+    display: inline-block;
+}
+
+.top-contact-button-sub {
+    color: rgba(235, 87, 87, 1);
+    font-size: min(0.12rem, 12px);
+    padding: min(0.09rem, 9px) min(0.1rem, 10px);
+    display: inline-block;
+    background-color: rgba(246, 246, 246, 1);
+    border-radius: 2px;
 }
