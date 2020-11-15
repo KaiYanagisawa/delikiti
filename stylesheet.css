@@ -23,13 +23,24 @@ body {
     position: relative;
 }
 
-.top-container {
+.top-part {
     width: 100%;
     height: 9rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606089600&Signature=bbPHQmPZLzyJ-khBQIlyHy0OI1EPk45AiMXiNCO0h8NaTewwqIbU7Ic9kEJpEuTnodAI02lg8nqwaPMb8iw43dZxjxjVk3KIQnuiGCSRhXD45KmAQ8-cldPl2Aky0d824DTphYtUMRSFcSIMNTrF2M8KoRrgKW~O1~LT1bP2gndXf~zEXJW41jzj3-KgZ-sR6v7ga1wvyju5R5Q1xJqv8bLIAkYT-OA6rhGTw9xEfcevcz-JRc64zAvo4bEH5yFp0V01l3nkqS75uNcDfdF~9ZhR1Pf3X-i3ojxBpdBWXXCf1TQNL8ZJ58FgCKXWQovoN-PIboEYtpTwOiUTIb1BuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+
+.top-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-container-contain {
+    max-width: 1440px;
 }
 
 .header-logo-contain {
@@ -118,6 +129,6 @@ body {
     background: #FFFFFF;
     padding: min(0.13rem, 13px) min(0.38rem, 38px);
     border-radius: 40px;
-    vertical-align: sub;
     line-height: 33px;
+    font-size: min(0.14rem, 14px);
 }
