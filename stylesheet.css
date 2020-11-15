@@ -132,3 +132,40 @@ body {
     line-height: 33px;
     font-size: min(0.14rem, 14px);
 }
+
+.top-contain {
+    margin: 2rem min(1.2rem, 120px);
+}
+
+.top-body-1 {
+    font-size: min(0.24rem, 24px);
+    font-weight: 600;
+}
+
+.top-body-2 {
+    margin: 0.32rem 0;
+    font-size: min(0.4rem, 40px);
+}
+
+.top-body-mid {
+    margin: 0.32rem 0;
+}
+
+.top-body-mid p {
+    display: inline-block;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.top-mid-content-1 {
+    float: left;
+    padding: min(0.2rem, 20px) min(0.5rem, 50px);
+}
+
+.top-mid-content-2 {
+    margin-left: 0.2rem;
+    padding: min(0.2rem, 20px) min(0.35rem, 35px);
+}
