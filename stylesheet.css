@@ -208,3 +208,79 @@ body {
     top: -20px;
     left: 0.2rem;
 }
+
+.second-container {
+    width: 100%;
+}
+
+.container-about {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    margin: 1.8rem 0;
+}
+
+.about-header h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: min(0.28rem, 28px);
+    line-height: min(0.48rem, 48px);
+}
+
+.about-header-span {
+    color: rgba(235, 87, 87, 1);
+}
+
+.about-body {
+    margin: min(2.1rem, 210px) min(1.2rem, 120px);
+}
+
+.about-picture {
+    display: inline-block;
+}
+
+.about-picture img {
+    width: min(5rem, 500px);
+    vertical-align: middle;
+}
+
+.about-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: min(0.8rem, 80px);
+}
+
+.about-text-head {
+    font-size: min(0.24rem, 24px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: min(0.48rem, 48px);
+}
+
+.about-text-head-span {
+    font-size: min(0.48rem, 48px);
+    color: rgba(235, 87, 87, 1);
+}
+
+.about-text-detail {
+    font-size: min(0.2rem, 20px);
+    line-height: min(0.32rem, 32px);
+    font-weight: 600;
+    margin-top: min(0.3rem, 30px);
+}
+
+.text-detail-span {
+    color: rgba(235, 87, 87, 1);
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+    margin-top: min(0.3rem, 30px);
+}
+
+.about-text li {
+    font-size: min(0.18rem, 18px);
+    font-weight: 600;
+    margin-bottom: min(0.2rem, 2px);
+}
