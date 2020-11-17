@@ -507,3 +507,25 @@
         font-size: min(0.24rem, 24px);
         line-height: min(0.24rem, 24px);
     }
+    
+    .benefits {
+        background-color: rgba(255, 250, 210, 1);
+        width: 100%;
+        position: relative;
+        z-index: -2;
+    }
+    
+    .benefits-background {
+        position: absolute;
+        top: min(1.84rem, 184px);
+        left: min(4.45rem, 445px);
+        z-index: -1;
+        color: rgba(254, 247, 166, 1);
+        font-size: min(2rem, 200px);
+        line-height: min(1.6rem, 160px);
+        font-weight: 800;
+    }
+    
+    .benefits-inside {
+        padding: min(1.8rem, 180px) min(1.2rem, 120px);
+    }
