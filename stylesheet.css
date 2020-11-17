@@ -45,7 +45,7 @@
     
     .header-logo-contain {
         display: inline-block;
-        background-image: url("../img/Group(1).svg");
+        background-image: url(../img/Group(1).svg);
     }
     
     .head-logo {
@@ -411,4 +411,8 @@
     .example-content-2-text-3 {
         font-size: min(0.12rem, 12px);
         line-height: min(0.12rem, 12px);
+    }
+    
+    .example-list {
+        display: inline-block;
     }
