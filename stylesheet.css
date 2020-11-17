@@ -349,6 +349,7 @@
     
     .example-contents {
         text-align: center;
+        margin-bottom: min(0.48rem, 48px);
     }
     
     .example-content-1 {
@@ -413,14 +414,24 @@
         line-height: min(0.12rem, 12px);
     }
     
+    .example-list-top {
+        margin: 0 min(0.8rem, 80px) min(0.51rem, 51px);
+    }
+    
     .example-list-top-sub {
         display: inline-block;
         vertical-align: top;
         text-align: center;
+        width: 24%;
+    }
+    
+    .example-list-under {
+        margin: 0 min(2.27rem, 227px);
     }
     
     .example-list-under-sub {
         display: inline-block;
         vertical-align: top;
         text-align: center;
+        width: 32%;
     }
