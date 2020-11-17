@@ -444,11 +444,18 @@
         font-size: min(0.2rem, 20px);
         font-weight: 800;
         line-height: min(0.2rem, 20px);
-        margin: min(0.06rem, 6px) 0;
+        margin: min(0.12rem, 12px) 0;
     }
     
     .example-list-text {
         font-size: min(0.16rem, 16px);
         line-height: min(0.2rem, 20px);
-        margin: min(0.06rem, 6px) 0;
+        margin: min(0.12rem, 12px) 0;
+    }
+    
+    .example-list-text-span {
+        font-size: min(0.24rem, 24px);
+        font-weight: 800;
+        line-height: min(0.2rem, 20px);
+        color: rgba(254, 247, 166, 1);
     }
