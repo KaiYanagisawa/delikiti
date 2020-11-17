@@ -459,3 +459,31 @@
         line-height: min(0.2rem, 20px);
         color: rgba(254, 247, 166, 1);
     }
+    
+    .example-logo-2 {
+        text-align: center;
+        line-height: min(0.48rem, 48px);
+        margin-bottom: min(0.48rem, 48px);
+        margin: min(1.2rem, 120px) 0 min(0.48rem, 48px);
+    }
+    
+    .example-logo-2 p {
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
+    }
+    
+    .example-logo-2 h2 {
+        font-size: min(0.28rem, 28px);
+        font-weight: 600;
+    }
+    
+    .example-logo-2-sub {
+        font-size: min(0.32rem, 32px);
+        line-height: min(0.48rem, 48px);
+        text-align: center;
+    }
+    
+    .example-logo-2-sub-span {
+        font-size: min(0.4rem, 40px);
+        color: rgba(254, 247, 166, 1);
+    }
