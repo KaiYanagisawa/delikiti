@@ -413,6 +413,14 @@
         line-height: min(0.12rem, 12px);
     }
     
-    .example-list {
+    .example-list-top-sub {
         display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+    
+    .example-list-under-sub {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
     }
