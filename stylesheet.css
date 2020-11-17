@@ -492,3 +492,18 @@
     .example-logo-2-sub-span-2 {
         font-size: min(0.28rem, 28px);
     }
+    
+    .shopping-tools {
+        margin: 0 min(0.9rem, 90px);
+    }
+    
+    .shopping-tool {
+        display: inline-block;
+        width: 19%;
+        text-align: center;
+    }
+    
+    .shopping-tool p {
+        font-size: min(0.24rem, 24px);
+        line-height: min(0.24rem, 24px);
+    }
