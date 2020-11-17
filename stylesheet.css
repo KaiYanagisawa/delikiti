@@ -530,6 +530,10 @@
         padding: min(1.8rem, 180px) min(1.2rem, 120px);
     }
     
+    .benefit-logo {
+        margin: 0 0 min(0.76rem, 76px);
+    }
+    
     .benefit-logo h2 {
         font-size: min(0.48rem, 48px);
         line-height: min(0.64rem, 64px);
@@ -538,4 +542,14 @@
     .benefit-logo-span {
         color: rgba(235, 87, 87, 1);
         font-size: min(0.64rem, 64px);
+    }
+    
+    .benefit-contain-shipping {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .benefit-contain-coupon {
+        display: inline-block;
+        vertical-align: top;
     }
