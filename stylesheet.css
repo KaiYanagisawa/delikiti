@@ -1,364 +1,414 @@
-html,
-body,
-h1,
-h2,
-a,
-p {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: calc(100vw/14.4);
-}
-
-body {
-    font-size: 0.16rem;
-}
-
-.header-logo {
-    margin: 0.3rem 0 0 0.8rem;
-    display: inline-block;
-    position: relative;
-}
-
-.top-part {
-    width: 100%;
-    height: 9rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606089600&Signature=bbPHQmPZLzyJ-khBQIlyHy0OI1EPk45AiMXiNCO0h8NaTewwqIbU7Ic9kEJpEuTnodAI02lg8nqwaPMb8iw43dZxjxjVk3KIQnuiGCSRhXD45KmAQ8-cldPl2Aky0d824DTphYtUMRSFcSIMNTrF2M8KoRrgKW~O1~LT1bP2gndXf~zEXJW41jzj3-KgZ-sR6v7ga1wvyju5R5Q1xJqv8bLIAkYT-OA6rhGTw9xEfcevcz-JRc64zAvo4bEH5yFp0V01l3nkqS75uNcDfdF~9ZhR1Pf3X-i3ojxBpdBWXXCf1TQNL8ZJ58FgCKXWQovoN-PIboEYtpTwOiUTIb1BuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-}
-
-.top-container {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-
-.top-container-contain {
-    max-width: 1440px;
-}
-
-.header-logo-contain {
-    display: inline-block;
-}
-
-.head-logo {
-    color: rgba(0, 89, 130, 1);
-    font-size: 23px;
-    display: inline-block;
-}
-
-.head-sub {
-    color: rgba(106, 105, 105, 1);
-    font-size: 10px;
-    transform: scale(0.6);
-    position: absolute;
-    top: 23px;
-    left: 55px;
-    width: 110px;
-}
-
-.head-sub span {
-    color: rgba(201, 22, 29, 1);
-    font-size: 10px;
-    transform: scale(0.7);
-    font-weight: 600;
-}
-
-.header-contact {
-    float: right;
-    position: absolute;
-    top: 0.3rem;
-    right: 0.8rem;
-}
-
-.header-contact-phone {
-    float: left;
-    position: relative;
-    width: clamp(200px, 4rem, 235px);
-    margin-right: min(0.3rem, 30px);
-}
-
-.phone {
-    font-family: 'Mplus 1p';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 11px;
-    padding: 5px 5px 0 5px;
-    width: 10px;
-    display: inline-block;
-    height: 35px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.phone-number {
-    display: inline-block;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: clamp(20px, 0.24rem, 24px);
-    line-height: 22px;
-    color: rgba(235, 87, 87, 1);
-    position: absolute;
-    top: 3px;
-    left: 30px;
-}
-
-.business-hours {
-    font-family: Mplus 1p;
-    font-style: normal;
-    font-weight: 550;
-    font-size: min(0.12rem, 12px);
-    line-height: 0.12rem;
-    position: absolute;
-    top: 25px;
-    left: 30px;
-}
-
-.header-contact a {
-    text-decoration: none;
-    color: rgba(235, 87, 87, 1);
-    font-style: normal;
-    font-weight: 500;
-    background: #FFFFFF;
-    padding: min(0.13rem, 13px) min(0.38rem, 38px);
-    border-radius: 40px;
-    line-height: 33px;
-    font-size: min(0.14rem, 14px);
-}
-
-.top-contain {
-    margin: 1.5rem min(1.2rem, 120px);
-}
-
-.top-body-1 {
-    font-size: min(0.24rem, 24px);
-    font-weight: 600;
-}
-
-.top-body-2 {
-    margin-top: min(0.32rem, 32px);
-    font-size: min(0.4rem, 40px);
-}
-
-.top-body-mid {
-    margin-top: min(0.64rem, 64px);
-}
-
-.top-body-mid p {
-    display: inline-block;
-    text-align: center;
-    background-color: #FFFFFF;
-    border: 1px solid #F6F6F6;
-    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    font-size: min(0.2rem, 20px);
-    font-weight: 600;
-}
-
-.top-mid-content-1 {
-    float: left;
-    padding: min(0.2rem, 20px) min(0.5rem, 50px);
-}
-
-.top-mid-content-2 {
-    margin-left: 0.2rem;
-    padding: min(0.2rem, 20px) min(0.35rem, 35px);
-}
-
-.top-mid-span-1 {
-    font-size: min(0.32rem, 32px);
-    color: rgba(235, 87, 87, 1);
-}
-
-.top-mid-span-2 {
-    color: rgba(235, 87, 87, 1);
-}
-
-.top-body-contact {
-    margin-top: 0.7rem;
-    position: relative;
-}
-
-.top-contact-button {
-    background-color: #EB5757;
-    border-radius: 80px;
-    font-size: min(0.2rem, 20px);
-    font-weight: 800;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-    padding: min(0.26rem, 26px) min(1.5rem, 150px);
-    display: inline-block;
-}
-
-.top-contact-button-sub {
-    color: rgba(235, 87, 87, 1);
-    font-size: min(0.12rem, 12px);
-    padding: min(0.09rem, 9px) min(0.1rem, 10px);
-    display: inline-block;
-    background-color: rgba(246, 246, 246, 1);
-    border-radius: 2px;
-    position: absolute;
-    top: -20px;
-    left: 0.2rem;
-}
-
-.second-container {
-    width: 100%;
-}
-
-.container-about {
-    max-width: 1440px;
-    margin: 1.8rem auto;
-}
-
-.about-header h2 {
-    text-align: center;
-    font-weight: 600;
-    font-size: min(0.28rem, 28px);
-    line-height: min(0.48rem, 48px);
-}
-
-.about-header-span {
-    color: rgba(235, 87, 87, 1);
-}
-
-.about-body {
-    margin: min(2.1rem, 210px) 0;
-    text-align: center;
-}
-
-.about-background {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: min(2rem, 200px);
-    line-height: min(1.6rem, 160px);
-    color: #F6F6F6;
-    z-index: -1;
-    position: absolute;
-    top: -1rem;
-}
-
-.about-picture {
-    display: inline-block;
-    position: relative;
-}
-
-.about-picture img {
-    width: min(5rem, 500px);
-    vertical-align: middle;
-}
-
-.about-text {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: min(0.8rem, 80px);
-    text-align: left;
-}
-
-.about-text-head {
-    font-size: min(0.24rem, 24px);
-    font-style: normal;
-    font-weight: 600;
-    line-height: min(0.48rem, 48px);
-}
-
-.about-text-head-span {
-    font-size: min(0.48rem, 48px);
-    color: rgba(235, 87, 87, 1);
-}
-
-.about-text-detail {
-    font-size: min(0.2rem, 20px);
-    line-height: min(0.32rem, 32px);
-    font-weight: 600;
-    margin-top: min(0.3rem, 30px);
-}
-
-.text-detail-span {
-    color: rgba(235, 87, 87, 1);
-}
-
-.about-text ul {
-    list-style: none;
-    padding: 0;
-    margin-top: min(0.3rem, 30px);
-}
-
-.about-text li {
-    font-size: min(0.18rem, 18px);
-    font-weight: 600;
-    margin-bottom: min(0.2rem, 2px);
-}
-
-.example {
-    width: 100%;
-    background-color: rgba(246, 246, 246, 1);
-}
-
-.example-inside {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: min(1.8rem, 180px) min(0.8rem, 80px);
-}
-
-.example-logo-1 {
-    text-align: center;
-    line-height: min(0.48rem, 48px);
-    margin-bottom: min(0.48rem, 48px);
-}
-
-.example-logo-1 p {
-    font-size: min(0.2rem, 20px);
-    font-weight: 600;
-}
-
-.example-logo-1 h2 {
-    font-size: min(0.28rem, 28px);
-    font-weight: 600;
-}
-
-.example-contain-1 {
-    background: #EB5757;
-    opacity: 0.9;
-    border-radius: 20px;
-    color: rgba(255, 255, 255, 1);
-    padding: min(1.2rem, 120px) 0;
-}
-
-.example-logo {
-    text-align: center;
-    margin-bottom: min(0.48rem, 48px);
-}
-
-.example-logo-white {
-    font-size: min(0.32rem, 32px);
-    line-height: min(0, 48rem, 48px);
-}
-
-.example-logo-color {
-    font-size: min(0.4rem, 40px);
-    line-height: min(0.59rem, 59px);
-    color: rgba(254, 247, 166, 1);
-}
-
-.example-contents {
-    text-align: center;
-}
-
-.example-content-1 {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.example-content-2 {
-    display: inline-block;
-    vertical-align: middle;
-}
+    html,
+    body,
+    h1,
+    h2,
+    a,
+    p {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: calc(100vw/14.4);
+    }
+    
+    body {
+        font-size: 0.16rem;
+    }
+    
+    .header-logo {
+        margin: 0.3rem 0 0 0.8rem;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .top-part {
+        width: 100%;
+        height: 9rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606089600&Signature=bbPHQmPZLzyJ-khBQIlyHy0OI1EPk45AiMXiNCO0h8NaTewwqIbU7Ic9kEJpEuTnodAI02lg8nqwaPMb8iw43dZxjxjVk3KIQnuiGCSRhXD45KmAQ8-cldPl2Aky0d824DTphYtUMRSFcSIMNTrF2M8KoRrgKW~O1~LT1bP2gndXf~zEXJW41jzj3-KgZ-sR6v7ga1wvyju5R5Q1xJqv8bLIAkYT-OA6rhGTw9xEfcevcz-JRc64zAvo4bEH5yFp0V01l3nkqS75uNcDfdF~9ZhR1Pf3X-i3ojxBpdBWXXCf1TQNL8ZJ58FgCKXWQovoN-PIboEYtpTwOiUTIb1BuQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    }
+    
+    .top-container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .top-container-contain {
+        max-width: 1440px;
+    }
+    
+    .header-logo-contain {
+        display: inline-block;
+        background-image: url("../img/Group(1).svg");
+    }
+    
+    .head-logo {
+        color: rgba(0, 89, 130, 1);
+        font-size: 23px;
+        display: inline-block;
+    }
+    
+    .head-sub {
+        color: rgba(106, 105, 105, 1);
+        font-size: 10px;
+        transform: scale(0.6);
+        position: absolute;
+        top: 23px;
+        left: 55px;
+        width: 110px;
+    }
+    
+    .head-sub span {
+        color: rgba(201, 22, 29, 1);
+        font-size: 10px;
+        transform: scale(0.7);
+        font-weight: 600;
+    }
+    
+    .header-contact {
+        float: right;
+        position: absolute;
+        top: 0.3rem;
+        right: 0.8rem;
+    }
+    
+    .header-contact-phone {
+        float: left;
+        position: relative;
+        width: clamp(200px, 4rem, 235px);
+        margin-right: min(0.3rem, 30px);
+    }
+    
+    .phone {
+        font-family: 'Mplus 1p';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 11px;
+        padding: 5px 5px 0 5px;
+        width: 10px;
+        display: inline-block;
+        height: 35px;
+        background-color: rgba(255, 255, 255, 1);
+        vertical-align: middle;
+    }
+    
+    .phone-number {
+        display: inline-block;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: clamp(20px, 0.24rem, 24px);
+        line-height: min(0.22rem, 22px);
+        color: rgba(235, 87, 87, 1);
+        vertical-align: middle;
+    }
+    
+    .business-hours {
+        font-family: Mplus 1p;
+        font-style: normal;
+        font-weight: 550;
+        font-size: min(0.12rem, 12px);
+        line-height: 0.12rem;
+        color: black;
+    }
+    
+    .header-contact a {
+        text-decoration: none;
+        color: rgba(235, 87, 87, 1);
+        font-style: normal;
+        font-weight: 500;
+        background: #FFFFFF;
+        padding: min(0.13rem, 13px) min(0.38rem, 38px);
+        border-radius: 40px;
+        line-height: 33px;
+        font-size: min(0.14rem, 14px);
+    }
+    
+    .top-contain {
+        margin: 1.5rem min(1.2rem, 120px);
+    }
+    
+    .top-body-1 {
+        font-size: min(0.24rem, 24px);
+        font-weight: 600;
+    }
+    
+    .top-body-2 {
+        margin-top: min(0.32rem, 32px);
+        font-size: min(0.4rem, 40px);
+    }
+    
+    .top-body-mid {
+        margin-top: min(0.64rem, 64px);
+    }
+    
+    .top-body-mid p {
+        display: inline-block;
+        text-align: center;
+        background-color: #FFFFFF;
+        border: 1px solid #F6F6F6;
+        box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
+    }
+    
+    .top-mid-content-1 {
+        float: left;
+        padding: min(0.2rem, 20px) min(0.5rem, 50px);
+    }
+    
+    .top-mid-content-2 {
+        margin-left: 0.2rem;
+        padding: min(0.2rem, 20px) min(0.35rem, 35px);
+    }
+    
+    .top-mid-span-1 {
+        font-size: min(0.32rem, 32px);
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .top-mid-span-2 {
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .top-body-contact {
+        margin-top: 0.7rem;
+        position: relative;
+    }
+    
+    .top-contact-button {
+        background-color: #EB5757;
+        border-radius: 80px;
+        font-size: min(0.2rem, 20px);
+        font-weight: 800;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        padding: min(0.26rem, 26px) min(1.5rem, 150px);
+        display: inline-block;
+    }
+    
+    .top-contact-button-sub {
+        color: rgba(235, 87, 87, 1);
+        font-size: min(0.12rem, 12px);
+        padding: min(0.09rem, 9px) min(0.1rem, 10px);
+        display: inline-block;
+        background-color: rgba(246, 246, 246, 1);
+        border-radius: 2px;
+        position: absolute;
+        top: -20px;
+        left: 0.2rem;
+    }
+    
+    .second-container {
+        width: 100%;
+    }
+    
+    .container-about {
+        max-width: 1440px;
+        margin: 1.8rem auto;
+    }
+    
+    .about-header h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: min(0.28rem, 28px);
+        line-height: min(0.48rem, 48px);
+    }
+    
+    .about-header-span {
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .about-body {
+        margin: min(2.1rem, 210px) 0;
+        text-align: center;
+    }
+    
+    .about-background {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: min(2rem, 200px);
+        line-height: min(1.6rem, 160px);
+        color: #F6F6F6;
+        z-index: -1;
+        position: absolute;
+        top: -1rem;
+    }
+    
+    .about-picture {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .about-picture img {
+        width: min(5rem, 500px);
+        vertical-align: middle;
+    }
+    
+    .about-text {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: min(0.8rem, 80px);
+        text-align: left;
+    }
+    
+    .about-text-head {
+        font-size: min(0.24rem, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: min(0.48rem, 48px);
+    }
+    
+    .about-text-head-span {
+        font-size: min(0.48rem, 48px);
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .about-text-detail {
+        font-size: min(0.2rem, 20px);
+        line-height: min(0.32rem, 32px);
+        font-weight: 600;
+        margin-top: min(0.3rem, 30px);
+    }
+    
+    .text-detail-span {
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .about-text ul {
+        list-style: none;
+        padding: 0;
+        margin-top: min(0.3rem, 30px);
+    }
+    
+    .about-text li {
+        font-size: min(0.18rem, 18px);
+        font-weight: 600;
+        margin-bottom: min(0.2rem, 2px);
+    }
+    
+    .example {
+        width: 100%;
+        background-color: rgba(246, 246, 246, 1);
+    }
+    
+    .example-inside {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: min(1.8rem, 180px) min(0.8rem, 80px);
+    }
+    
+    .example-logo-1 {
+        text-align: center;
+        line-height: min(0.48rem, 48px);
+        margin-bottom: min(0.48rem, 48px);
+    }
+    
+    .example-logo-1 p {
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
+    }
+    
+    .example-logo-1 h2 {
+        font-size: min(0.28rem, 28px);
+        font-weight: 600;
+    }
+    
+    .example-contain-1 {
+        background: #EB5757;
+        opacity: 0.9;
+        border-radius: 20px;
+        color: rgba(255, 255, 255, 1);
+        padding: min(1.2rem, 120px) 0;
+    }
+    
+    .example-logo {
+        text-align: center;
+        margin-bottom: min(0.48rem, 48px);
+    }
+    
+    .example-logo-white {
+        font-size: min(0.32rem, 32px);
+        line-height: min(0, 48rem, 48px);
+    }
+    
+    .example-logo-color {
+        font-size: min(0.4rem, 40px);
+        line-height: min(0.59rem, 59px);
+        color: rgba(254, 247, 166, 1);
+    }
+    
+    .example-contents {
+        text-align: center;
+    }
+    
+    .example-content-1 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .example-content-2 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .example-content-number {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 600;
+        font-size: min(0.8rem, 80px);
+        line-height: min(0.4rem, 40px);
+        color: #FEF7A6;
+    }
+    
+    .example-content-1-text {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        font-size: min(0.2rem, 20px);
+        line-height: min(0.48rem, 48px);
+    }
+    
+    .example-content-1-span {
+        font-size: min(0.4rem, 40px);
+    }
+    
+    .example-content-2 {
+        margin-left: min(0.5rem, 50px);
+    }
+    
+    .example-content-2-text {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+    .example-content-2-text-1 {
+        font-size: min(0.2rem, 20px);
+        line-height: min(0.4rem, 40px);
+    }
+    
+    .example-content-2-text-2 {
+        font-size: min(0.4rem, 40px);
+        line-height: min(0.34rem, 34px);
+    }
+    
+    .example-content-2-text-2-span {
+        font-size: min(0.2rem, 20px);
+    }
+    
+    .example-content-2-text-3 {
+        font-size: min(0.12rem, 12px);
+        line-height: min(0.12rem, 12px);
+    }
