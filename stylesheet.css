@@ -230,8 +230,8 @@ body {
 }
 
 .about-body {
-    margin: min(2.1rem, 210px) min(1.2rem, 120px);
-    position: relative;
+    margin: min(2.1rem, 210px) 0;
+    text-align: center;
 }
 
 .about-background {
@@ -243,11 +243,12 @@ body {
     color: #F6F6F6;
     z-index: -1;
     position: absolute;
-    top: -0.8rem;
+    top: -1rem;
 }
 
 .about-picture {
     display: inline-block;
+    position: relative;
 }
 
 .about-picture img {
@@ -259,6 +260,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: min(0.8rem, 80px);
+    text-align: left;
 }
 
 .about-text-head {
