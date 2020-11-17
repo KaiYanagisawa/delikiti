@@ -215,9 +215,7 @@ body {
 
 .container-about {
     max-width: 1440px;
-    margin: 0 auto;
-    width: 100%;
-    margin: 1.8rem 0;
+    margin: 1.8rem auto;
 }
 
 .about-header h2 {
@@ -233,6 +231,19 @@ body {
 
 .about-body {
     margin: min(2.1rem, 210px) min(1.2rem, 120px);
+    position: relative;
+}
+
+.about-background {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(2rem, 200px);
+    line-height: min(1.6rem, 160px);
+    color: #F6F6F6;
+    z-index: -1;
+    position: absolute;
+    top: -0.8rem;
 }
 
 .about-picture {
@@ -283,4 +294,69 @@ body {
     font-size: min(0.18rem, 18px);
     font-weight: 600;
     margin-bottom: min(0.2rem, 2px);
+}
+
+.example {
+    width: 100%;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.example-inside {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: min(1.8rem, 180px) min(0.8rem, 80px);
+}
+
+.example-logo-1 {
+    text-align: center;
+    line-height: min(0.48rem, 48px);
+    margin-bottom: min(0.48rem, 48px);
+}
+
+.example-logo-1 p {
+    font-size: min(0.2rem, 20px);
+    font-weight: 600;
+}
+
+.example-logo-1 h2 {
+    font-size: min(0.28rem, 28px);
+    font-weight: 600;
+}
+
+.example-contain-1 {
+    background: #EB5757;
+    opacity: 0.9;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 1);
+    padding: min(1.2rem, 120px) 0;
+}
+
+.example-logo {
+    text-align: center;
+    margin-bottom: min(0.48rem, 48px);
+}
+
+.example-logo-white {
+    font-size: min(0.32rem, 32px);
+    line-height: min(0, 48rem, 48px);
+}
+
+.example-logo-color {
+    font-size: min(0.4rem, 40px);
+    line-height: min(0.59rem, 59px);
+    color: rgba(254, 247, 166, 1);
+}
+
+.example-contents {
+    text-align: center;
+}
+
+.example-content-1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.example-content-2 {
+    display: inline-block;
+    vertical-align: middle;
 }
