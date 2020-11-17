@@ -481,9 +481,14 @@
         font-size: min(0.32rem, 32px);
         line-height: min(0.48rem, 48px);
         text-align: center;
+        margin: 0 0 min(0.8rem, 80px);
     }
     
     .example-logo-2-sub-span {
         font-size: min(0.4rem, 40px);
         color: rgba(254, 247, 166, 1);
+    }
+    
+    .example-logo-2-sub-span-2 {
+        font-size: min(0.28rem, 28px);
     }
