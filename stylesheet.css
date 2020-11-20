@@ -294,12 +294,12 @@
     }
     
     .example-logo-1 p {
-        font-size: min(0.2rem, 20px);
+        font-size: min(0.28rem, 28px);
         font-weight: 600;
     }
     
     .example-logo-1 h2 {
-        font-size: min(0.28rem, 28px);
+        font-size: min(0.4rem, 40px);
         font-weight: 600;
     }
     
@@ -477,12 +477,12 @@
     }
     
     .example-logo-2 p {
-        font-size: min(0.2rem, 20px);
+        font-size: min(0.2rem, 28px);
         font-weight: 600;
     }
     
     .example-logo-2 h2 {
-        font-size: min(0.28rem, 28px);
+        font-size: min(0.4rem, 40px);
         font-weight: 600;
     }
     
@@ -512,9 +512,14 @@
         text-align: center;
     }
     
+    .shopping-tool img {
+        width: min(1.8rem, 180px);
+    }
+    
     .shopping-tool p {
         font-size: min(0.24rem, 24px);
         line-height: min(0.24rem, 24px);
+        margin: min(0.2rem, 20px) 0 min(0.6rem, 60px);
     }
     
     .benefits {
@@ -696,4 +701,27 @@
         margin: min(0.4rem, 40px) 0;
         font-size: min(0.2rem, 20px);
         font-weight: 600;
+    }
+    
+    .price {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .price-background {
+        z-index: -1;
+        font-weight: 700;
+        font-size: min(2rem, 200px);
+        line-height: min(1.6rem, 160px);
+        color: #F6F6F6;
+        position: absolute;
+        top: min(1.8rem, 180px);
+        right: min(1.2rem, 120px);
+    }
+    
+    .price-contain {
+        position: relative;
+        max-width: 1440px;
+        padding: min(1.8rem, 180px) min(1.2rem, 120px);
+        margin: 0 auto;
     }
