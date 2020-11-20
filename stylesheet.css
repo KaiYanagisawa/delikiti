@@ -802,3 +802,17 @@
         font-size: min(0.16rem, 16px);
         font-weight: 500;
     }
+    
+    .service-all {
+        background-color: #FFFAD2;
+        z-index: -5;
+        max-width: 1440px;
+    }
+    
+    .service-background p {
+        font-weight: 700;
+        font-size: min(2rem, 200px);
+        line-height: min(1.6rem, 160px);
+        color: rgba(254, 247, 166, 1);
+        z-index: 0;
+    }
