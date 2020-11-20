@@ -29,7 +29,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        background-image: url("img/Rectangle1.svg");
+        background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606694400&Signature=flbOFLNY3jGTs~16C9SAX~0Rkyz5AyB-dcI-nE4~n6P8LS1GWbPAjMNBTwQ2Qgry8VgHgHW33mtOC5Mo2bW9809aTMZeP1lg69yMDYoSrbZS86KZoRydvn2fF7CoPWWQfraWwlXAyo4JLediCfoCk5IP7TAYqZugW6u5Nb3DlslQEE~nVDgSAu3v1R9CjyQ2eeRTg~Aj50Tqka4I7cEI3LRxcnIMy03uke9T2pzxFXy73T-FTKSZCD9L1yJxoBuYMYDmudGBMQCKdCqkDZDoxD-O0iH1GVe7kVjE-ZqI5dTIOoGdL~Y71gJ0tfzIPj01MxD~ZDjuJdccqn~KY2dkUg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     }
     
     .top-container {
@@ -418,6 +418,29 @@
         vertical-align: top;
         text-align: center;
         width: 32%;
+    }
+    
+    .example-list-top-sub-img {
+        position: relative;
+    }
+    
+    .example-list-top-sub-img img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .example-img-cinemas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        width: min(2.1rem, 210px);
+    }
+    
+    .example-top-img-white {
+        z-index: -2;
+        width: min(2.4rem, 240px);
     }
     
     .example-list-title {
