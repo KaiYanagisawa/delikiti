@@ -398,10 +398,6 @@
         margin: 0 min(0.8rem, 80px) min(0.51rem, 51px);
     }
     
-    .example-list-top-sub img {
-        margin-bottom: min(0.2rem, 20px);
-    }
-    
     .example-list-top-sub {
         display: inline-block;
         vertical-align: top;
@@ -420,34 +416,44 @@
         width: 32%;
     }
     
-    .example-list-top-sub-img {
-        position: relative;
+    .example-list-imgs {
+        width: min(2.4rem, 240px);
+        margin-bottom: min(0.2rem, 20px);
     }
     
-    .example-list-top-sub-img img {
-        margin: 0;
-        padding: 0;
+    .example-list-top-sub-img {
+        position: relative;
     }
     
     .example-img-cinemas {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -60%);
         z-index: 5;
         width: min(2.1rem, 210px);
+    }
+    
+    .example-img-hand {
+        width: min(1.22rem, 122px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        z-index: 5;
     }
     
     .example-top-img-white {
         z-index: -2;
         width: min(2.4rem, 240px);
+        margin-bottom: min(0.2rem, 20px);
     }
     
     .example-list-title {
         font-size: min(0.2rem, 20px);
         font-weight: 800;
         line-height: min(0.2rem, 20px);
-        margin: min(0.12rem, 12px) 0;
+        margin: 0 0 min(0.12rem, 12px);
     }
     
     .example-list-text {
