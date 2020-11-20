@@ -29,7 +29,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        background-image: url("../delikiti/img/Rectangle1.svg");
+        background-image: url("https://s3-alpha-sig.figma.com/img/533b/9aeb/cb4646f8ced269a777c9f4b8c123d04e?Expires=1606694400&Signature=flbOFLNY3jGTs~16C9SAX~0Rkyz5AyB-dcI-nE4~n6P8LS1GWbPAjMNBTwQ2Qgry8VgHgHW33mtOC5Mo2bW9809aTMZeP1lg69yMDYoSrbZS86KZoRydvn2fF7CoPWWQfraWwlXAyo4JLediCfoCk5IP7TAYqZugW6u5Nb3DlslQEE~nVDgSAu3v1R9CjyQ2eeRTg~Aj50Tqka4I7cEI3LRxcnIMy03uke9T2pzxFXy73T-FTKSZCD9L1yJxoBuYMYDmudGBMQCKdCqkDZDoxD-O0iH1GVe7kVjE-ZqI5dTIOoGdL~Y71gJ0tfzIPj01MxD~ZDjuJdccqn~KY2dkUg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     }
     
     .top-container {
@@ -47,27 +47,8 @@
         display: inline-block;
     }
     
-    .head-logo {
-        color: rgba(0, 89, 130, 1);
-        font-size: 23px;
-        display: inline-block;
-    }
-    
-    .head-sub {
-        color: rgba(106, 105, 105, 1);
-        font-size: 10px;
-        transform: scale(0.6);
-        position: absolute;
-        top: 23px;
-        left: 55px;
-        width: 110px;
-    }
-    
-    .head-sub span {
-        color: rgba(201, 22, 29, 1);
-        font-size: 10px;
-        transform: scale(0.7);
-        font-weight: 600;
+    .header-logo-line img {
+        width: min(2rem, 200px);
     }
     
     .header-contact {
@@ -573,4 +554,58 @@
     
     .shipping-top-span {
         color: rgba(235, 87, 87, 1);
+    }
+    
+    .shipping-contain-top {
+        font-size: min(0.32rem, 32px);
+        line-height: min(0.32rem, 32px);
+        font-weight: 600;
+    }
+    
+    .shipping-contain-mid {
+        margin: min(0.4rem, 40px) 0;
+    }
+    
+    .shipping-mid-illust {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        width: 30%;
+    }
+    
+    .shipping-mid-illust-top {
+        font-size: min(0.24rem, 24px);
+        font-weight: 600;
+    }
+    
+    .shipping-mid-illust-top-span {
+        font-size: min(0.4rem, 40px);
+        color: rgba(235, 87, 87, 1);
+        line-height: min(0.4rem, 40px);
+    }
+    
+    .shipping-mid-illust img {
+        width: min(0.55rem, 55px);
+        height: min(0.4rem, 40px);
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .shipping-mid-illust-p {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: min(0.24rem, 24px);
+        line-height: min(0.4rem, 40px);
+        font-weight: 600;
+    }
+    
+    .shipping-mid-illust-span {
+        font-size: min(0.4rem, 40px);
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .shipping-mid-points {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 600;
     }
