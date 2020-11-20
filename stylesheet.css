@@ -806,7 +806,7 @@
     .service-all {
         background-color: #FFFAD2;
         z-index: -5;
-        max-width: 1440px;
+        position: relative;
     }
     
     .service-background p {
@@ -815,4 +815,38 @@
         line-height: min(1.6rem, 160px);
         color: rgba(254, 247, 166, 1);
         z-index: 0;
+        position: absolute;
+        top: min(1.8rem, 180px);
+        right: min(1.2rem, 120px);
+    }
+    
+    .service-contain {
+        padding: min(1.8rem, 180px) min(1.2rem, 120px);
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .service-head h2 {
+        font-size: min(0.48rem, 48px);
+        font-weight: 600;
+        margin: 0 0 min(1.2rem, 120px);
+    }
+    
+    .service-contents {
+        text-align: center;
+    }
+    
+    .service-content {
+        display: inline-block;
+        text-align: center;
+        background-color: #FAFAFA;
+        border-radius: min(0.3rem, 30px);
+        height: min(4.91rem, 491px);
+        width: min(3.83rem, 383px);
+        vertical-align: top;
+    }
+    
+    .service-content-head {
+        font-size: min(0.24rem, 24px);
+        font-weight: 600;
     }
