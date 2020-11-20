@@ -525,7 +525,6 @@
     .benefits {
         background-color: rgba(255, 250, 210, 1);
         width: 100%;
-        position: relative;
         z-index: -2;
     }
     
@@ -542,6 +541,10 @@
     
     .benefits-inside {
         padding: min(1.8rem, 180px) min(1.2rem, 120px);
+        max-width: 1440px;
+        position: relative;
+        margin: 0 auto;
+        z-index: 0;
     }
     
     .benefit-logo {
@@ -724,4 +727,78 @@
         max-width: 1440px;
         padding: min(1.8rem, 180px) min(1.2rem, 120px);
         margin: 0 auto;
+    }
+    
+    .price-contain-top {
+        text-align: center;
+        margin: min(0.4rem, 40px) 0;
+    }
+    
+    .price-logo h2 {
+        font-size: min(0.48rem, 48px);
+        line-height: min(0.48rem, 48px);
+        font-weight: 600;
+        margin: 0 0 min(0.8rem, 80px);
+    }
+    
+    .price-top-month-price {
+        font-size: min(0.2rem, 20px);
+        color: #FFFFFF;
+        background-color: #282828;
+        display: inline-block;
+        padding: min(0.25rem, 25px) min(0.1rem, 10px);
+        writing-mode: vertical-lr;
+    }
+    
+    .price-top-price {
+        font-size: min(0.3rem, 30px);
+        line-height: min(0.4rem, 40px);
+        font-weight: 600;
+        display: inline-block;
+        margin: 0 min(0.2rem, 20px);
+    }
+    
+    .price-top-price span {
+        font-size: min(1.2rem, 120px);
+        line-height: min(1rem, 100px);
+        font-weight: bold;
+        font-family: Heebo;
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .price-contain-top-free {
+        display: inline-block;
+        text-align: left;
+        margin: 0 0 0 min(0.3rem, 30px);
+    }
+    
+    .price-contain-campaign {
+        font-size: min(0.14rem, 14px);
+        font-weight: 800;
+        line-height: min(0.14rem, 14px);
+    }
+    
+    .price-contain-one-month {
+        font-size: min(0.4rem, 40px);
+        line-height: min(0.4rem, 40px);
+        font-weight: 600;
+    }
+    
+    .price-free {
+        font-weight: 600;
+        font-size: min(0.64rem, 64px);
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .price-important-points {
+        text-align: center;
+    }
+    
+    .price-important-contain {
+        background-color: #F6F6F6;
+        display: inline-block;
+        padding: min(0.3rem, 30px) min(0.8rem, 80px);
+        text-align: left;
+        font-size: min(0.16rem, 16px);
+        font-weight: 500;
     }
