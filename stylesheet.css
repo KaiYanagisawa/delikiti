@@ -530,13 +530,6 @@
         width: 48%;
     }
     
-    .benefit-contain-coupon {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0 0 0 3%;
-        width: 48%;
-    }
-    
     .shipping-top {
         background-color: rgba(255, 255, 255, 1);
         text-align: center;
@@ -607,5 +600,71 @@
     .shipping-mid-points {
         display: inline-block;
         vertical-align: middle;
+        font-weight: 600;
+    }
+    
+    .shipping-contain-foot {
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
+    }
+    
+    .benefit-contain-coupon {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 0 3%;
+        width: 48%;
+    }
+    
+    .coupon-logo {
+        background-color: rgba(255, 255, 255, 1);
+        text-align: center;
+        font-size: min(0.24rem, 24px);
+        line-height: min(0.36rem, 36px);
+        padding: min(0.1rem, 10px) 0;
+        font-weight: 600;
+        margin: 0 0 min(0.4rem, 40px);
+    }
+    
+    .coupon-logo-span {
+        font-size: min(0.32rem, 32px);
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .coupon-contain-text-top {
+        margin: min(0.4rem, 40px) 0;
+        font-size: min(0.32rem, 32px);
+        font-weight: 600;
+    }
+    
+    .coupon-contain p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .coupon-contain img {
+        width: min(1.2rem, 120px);
+        vertical-align: middle;
+    }
+    
+    .coupon-contain-x {
+        font-weight: 600;
+        font-size: min(0.24rem, 24px);
+        line-height: min(0.24rem, 24px);
+    }
+    
+    .coupon-contain-text {
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
+    }
+    
+    .coupon-contain-text span {
+        font-size: min(0.4rem, 40px);
+        font-weight: 800;
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .coupon-foot {
+        margin: min(0.4rem, 40px) 0;
+        font-size: min(0.2rem, 20px);
         font-weight: 600;
     }
