@@ -927,3 +927,11 @@
         font-size: min(0.12rem, 12px);
         line-height: min(0.12rem, 12px);
     }
+    
+    .secret-list-body {
+        display: inline-block;
+    }
+    
+    .secret-list-number {
+        display: inline-block;
+    }
