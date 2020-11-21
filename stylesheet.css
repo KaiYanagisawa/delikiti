@@ -1015,4 +1015,25 @@
     
     .flow-contain img {
         width: min(2.2rem, 220px);
+        margin: min(0.4rem, 40px) 0;
+    }
+    
+    .flow-contain-step {
+        font-style: italic;
+        font-weight: 700;
+        font-size: min(0.2rem, 20px);
+        line-height: min(0.2rem, 20px);
+    }
+    
+    .flow-contain-number {
+        font-style: italic;
+        font-weight: 700;
+        font-size: min(0.8rem, 80px);
+        line-height: min(0.8rem, 80px);
+        color: #EB5757;
+    }
+    
+    .flow-contain-text {
+        font-size: min(0.2rem, 20px);
+        font-weight: 600;
     }
