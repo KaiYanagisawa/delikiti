@@ -881,3 +881,8 @@
         font-weight: 600;
         margin: min(0.2rem, 20px) 0;
     }
+    
+    .secret-body {
+        padding: min(1.8rem, 180px) min(1.2rem, 120px);
+        max-width: 1440px;
+    }
