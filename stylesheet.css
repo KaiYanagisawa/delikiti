@@ -897,10 +897,33 @@
         position: absolute;
         top: min(1.8rem, 180px);
         right: min(1.2rem, 120px);
+        z-index: -2;
     }
     
     .secret-logo h2 {
         font-size: min(0.48rem, 48px);
         font-weight: 600;
         line-height: min(0.48rem, 48px);
+        margin: 0 0 min(0.8rem, 80px);
+    }
+    
+    .secret-list span {
+        color: rgba(235, 87, 87, 1);
+    }
+    
+    .secret-list-top {
+        font-size: min(0.24rem, 24px);
+        line-height: min(0.24rem, 24px);
+        font-weight: 600;
+    }
+    
+    .secret-list-text {
+        font-size: min(0.16rem, 16px);
+        line-height: min(0.16rem, 16px);
+        font-weight: 500;
+    }
+    
+    .secret-list-text-sub {
+        font-size: min(0.12rem, 12px);
+        line-height: min(0.12rem, 12px);
     }
