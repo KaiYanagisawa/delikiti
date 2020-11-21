@@ -844,6 +844,14 @@
         height: min(4.91rem, 491px);
         width: min(3.83rem, 383px);
         vertical-align: top;
+        position: relative;
+    }
+    
+    .service-content img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .service-content-text {
