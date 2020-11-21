@@ -1037,3 +1037,26 @@
         font-size: min(0.2rem, 20px);
         font-weight: 600;
     }
+    
+    .contact-body {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: min(1.8rem, 180px) min(1.2rem, 120px);
+        position: relative;
+    }
+    
+    .contact-background {
+        font-weight: 700;
+        font-size: min(2rem, 200px);
+        line-height: min(1.6rem, 160px);
+        position: absolute;
+        top: min(1.8rem, 180px);
+        right: min(1.2rem, 120px);
+        color: rgba(246, 246, 246, 1);
+    }
+    
+    .contact-logo h2 {
+        font-size: min(0.48rem, 48px);
+        font-weight: 600;
+        line-height: min(0.48rem, 48px);
+    }
