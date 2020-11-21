@@ -846,6 +846,10 @@
         vertical-align: top;
     }
     
+    .service-content-text {
+        margin: min(2.62rem, 262px) 0 0;
+    }
+    
     #service-content-mid {
         margin: 0 min(0.15rem, 15px);
     }
