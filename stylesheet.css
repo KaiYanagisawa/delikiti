@@ -885,4 +885,22 @@
     .secret-body {
         padding: min(1.8rem, 180px) min(1.2rem, 120px);
         max-width: 1440px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .secret-background {
+        color: rgba(246, 246, 246, 1);
+        font-size: min(2rem, 200px);
+        font-weight: 700;
+        line-height: min(1.6rem, 160px);
+        position: absolute;
+        top: min(1.8rem, 180px);
+        right: min(1.2rem, 120px);
+    }
+    
+    .secret-logo h2 {
+        font-size: min(0.48rem, 48px);
+        font-weight: 600;
+        line-height: min(0.48rem, 48px);
     }
