@@ -997,8 +997,22 @@
         padding: min(1.8rem, 180px) min(1.2rem, 120px);
     }
     
+    .flow-title {
+        margin: 0 0 min(0.8rem, 80px);
+    }
+    
     .flow-title h2 {
         font-weight: 600;
         font-size: min(0.48rem, 48px);
         line-height: min(0.48rem, 48px);
+    }
+    
+    .flow-contain {
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+    }
+    
+    .flow-contain img {
+        width: min(2.2rem, 220px);
     }
