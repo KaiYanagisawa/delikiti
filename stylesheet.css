@@ -849,9 +849,23 @@
     
     .service-content img {
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    
+    .service-img-1 {
+        width: min(2.99rem, 299px);
+    }
+    
+    .service-img-2 {
+        width: min(2.5rem, 250px);
+        height: min(2.62rem, 262px);
+    }
+    
+    .service-img-3 {
+        width: min(3.69rem, 369px);
+        height: min(2.52rem, 252px);
     }
     
     .service-content-text {
