@@ -907,6 +907,10 @@
         margin: 0 0 min(0.8rem, 80px);
     }
     
+    .secret-list {
+        margin: min(0.2rem, 20px) 0;
+    }
+    
     .secret-list span {
         color: rgba(235, 87, 87, 1);
     }
@@ -929,9 +933,20 @@
     }
     
     .secret-list-body {
+        vertical-align: middle;
         display: inline-block;
     }
     
     .secret-list-number {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: min(0.4rem, 40px);
+        line-height: min(0.4rem, 40px);
+        color: rgba(235, 87, 87, 1);
+        font-weight: 700;
+        padding: 0 min(0.4rem, 40px);
+    }
+    
+    .secret-list-contain {
         display: inline-block;
     }
