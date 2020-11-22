@@ -1053,6 +1053,7 @@
         top: min(1.8rem, 180px);
         right: min(1.2rem, 120px);
         color: rgba(246, 246, 246, 1);
+        z-index: -1;
     }
     
     .contact-logo h2 {
@@ -1093,6 +1094,14 @@
         border: none;
     }
     
+    .contact-form textarea {
+        background-color: #EB5757;
+        opacity: 0.1;
+        border-radius: 8px;
+        border: none;
+        resize: none;
+    }
+    
     .form-name {
         width: min(3rem, 300px);
         height: min(0.56rem, 56px);
@@ -1105,4 +1114,43 @@
     .form-second {
         width: min(6.4rem, 640px);
         height: min(0.56rem, 56px);
+    }
+    
+    .form-remarks {
+        width: min(6.4rem, 640px);
+        height: min(1.68rem, 168px);
+    }
+    
+    .contact-check-box {
+        width: min(6.4rem, 640px);
+        text-align: center;
+        display: inline-flex;
+    }
+    
+    .contact-check-box label {
+        font-size: min(0.16rem, 16px);
+    }
+    
+    input[type="checkbox"] {
+        border: 1px solid;
+        border-color: #EB5757;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    
+    .contact-submit {
+        margin: min(0.6rem, 60px) 0 0;
+    }
+    
+    .contact-submit input {
+        border: none;
+        width: min(4.5rem, 450px);
+        height: min(0.72rem, 72px);
+        background-color: #EB5757;
+        border-radius: min(0.8rem, 80px);
+    }
+    
+    input[value="送信"] {
+        color: #FFFFFF;
+        font-size: min(0.2rem, 20px);
     }
