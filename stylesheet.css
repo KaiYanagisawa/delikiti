@@ -1083,6 +1083,7 @@
         font-weight: 600;
         line-height: min(0.18rem, 18px);
         margin: 0 0 min(0.08rem, 8px);
+        text-align: left;
     }
     
     .contact-form input {
