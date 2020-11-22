@@ -1064,3 +1064,44 @@
     .contact-logo {
         margin: 0 0 min(0.8rem, 80px);
     }
+    
+    .contact-forms {
+        text-align: center;
+    }
+    
+    .contact-form {
+        margin: min(0.4rem, 40px) 0;
+    }
+    
+    .contact-form-contain {
+        display: inline-block;
+    }
+    
+    .contact-form label {
+        display: block;
+        font-size: min(0.18rem, 18px);
+        font-weight: 600;
+        line-height: min(0.18rem, 18px);
+        margin: 0 0 min(0.08rem, 8px);
+    }
+    
+    .contact-form input {
+        background-color: #EB5757;
+        opacity: 0.1;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .form-name {
+        width: min(3rem, 300px);
+        height: min(0.56rem, 56px);
+    }
+    
+    .contact-for-margin {
+        margin: 0 min(0.25rem, 25px) 0 0;
+    }
+    
+    .form-second {
+        width: min(6.4rem, 640px);
+        height: min(0.56rem, 56px);
+    }
