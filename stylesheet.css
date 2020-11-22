@@ -1129,12 +1129,12 @@
     
     .contact-check-box label {
         font-size: min(0.16rem, 16px);
+        line-height: min(0.16rem, 16px);
     }
     
     input[type="checkbox"] {
         border: 1px solid;
         border-color: #EB5757;
-        box-sizing: border-box;
         border-radius: 2px;
     }
     
