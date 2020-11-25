@@ -178,8 +178,10 @@
     .top-contact-button-sub {
         display: inline-block;
         position: absolute;
-        top: min(-0.2rem, -20px);
-        left: min(-0.2rem, -20px);
+        width: min(0.93rem, 93px);
+        top: -55%;
+        left: 0;
+        transform: translate(50%, 50%);
     }
     
     .second-container {
