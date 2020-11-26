@@ -290,6 +290,10 @@
         margin-bottom: min(0.48rem, 48px);
     }
     
+    .example-logo-text {
+        display: inline-block;
+    }
+    
     .example-logo-1 p {
         font-size: min(0.28rem, 28px);
         font-weight: 600;
@@ -298,6 +302,10 @@
     .example-logo-1 h2 {
         font-size: min(0.4rem, 40px);
         font-weight: 600;
+    }
+    
+    .example-logo-img {
+        width: min(0.58rem, 58px);
     }
     
     .example-contain-1 {
