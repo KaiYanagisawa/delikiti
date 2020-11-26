@@ -63,6 +63,7 @@
         position: relative;
         width: clamp(200px, 4rem, 235px);
         margin-right: min(0.3rem, 30px);
+        vertical-align: middle;
     }
     
     .phone {
@@ -100,6 +101,7 @@
     }
     
     .header-contact a {
+        vertical-align: middle;
         text-decoration: none;
         color: rgba(235, 87, 87, 1);
         font-style: normal;
@@ -181,7 +183,7 @@
         width: min(0.93rem, 93px);
         top: -55%;
         left: 0;
-        transform: translate(50%, 50%);
+        transform: translate(15%, 50%);
     }
     
     .second-container {
