@@ -520,7 +520,7 @@
     }
     
     .shopping-tool img {
-        width: min(1.8rem, 180px);
+        height: min(1.6rem, 160px);
     }
     
     .shopping-tool p {
@@ -887,6 +887,10 @@
         font-size: min(0.24rem, 24px);
         font-weight: 600;
         margin: min(0.2rem, 20px) 0;
+    }
+    
+    .service-content-detail {
+        font-size: min(0.16rem, 16px);
     }
     
     .secret-body {
